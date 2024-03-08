@@ -1,0 +1,7 @@
+[server]
+headless = true
+port = 10000
+
+[browser]
+serverAdress = "0.0.0.0"
+serverPort = 10000
