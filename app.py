@@ -4,6 +4,6 @@ import plotly_express as px
 
 # Read csv
 df = pd.read_csv(
-    'C:/Users/jfcom/Documents/modulo_adicional/proyecto/vehicles_EDA/prep_vehicles_us.csv')
+    'C:/Users/jfcom/Documents/modulo_adicional/proyecto/vehicles_EDA-2/prep_vehicles_us.csv')
 
 st.write(df)
