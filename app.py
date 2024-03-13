@@ -20,6 +20,21 @@ fig = px.bar(df, x='condition', height=400)
 st.plotly_chart(fig)
 
 # Vehicles type by manufacturer
-st.write("Cantidad de tipo de vehículos según marca")
-fig_2 = px.bar(df.groupby(['type', 'model'])['model'].agg('count'))
+st.subheader("Cantidad de tipo de vehículos por fabricante")
+
+# Select box creation
+options = ['Total de vehículos por marca',
+           'Total de Vehículos por tipo y marca']
+
+chart_option = st.selectbox('¿Qué gráfico quieres ver?', options, index=0)
+st.write('You selected:', chart_option)
+select_index = chart_option.index(chart_option)
+st.write('You selected:', select_index)
+
+# Company count by type table creation
+ctt = df.groupby(['company', 'type'], as_index=False)['price']\
+    .count().rename(columns={'price': 'count'})
+
+# Vehicles type by manufacturer chart
+fig_2 = px.bar(ctt, x='company', y='count', color='type')
 st.plotly_chart(fig_2, use_container_width=True)
