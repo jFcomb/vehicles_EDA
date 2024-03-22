@@ -1,7 +1,10 @@
 # Visualización EDA en API WEB
 
-En este trabajo se presenta un dataset de una página de ventas de automóviles, el trabajo realizado fue la realización de preprocesamientos de datos rellenando valores nulos y verificando valores duplicados, tipos de datos correctos entre otros. El trabajo se finaliza con la creación de una APP WEB montada sobre los servidores de render.com.
+En este trabajo se presenta un dataset de una página de ventas de automóviles, el trabajo inicia con el preprocesamiento de datos rellenando valores nulos y verificando valores duplicados, tipos de datos correctos entre otros, el nootbook se encuentra en la carpeta con el mismo nombre. Pero te dejo un vistazo
 
+![imagen1](https://github.com/jFcomb/vehicles_EDA/assets/132926660/f5884751-da6f-41b9-a2f0-31d4696c3d8c)
+
+El trabajo se finaliza con la creación de una APP WEB montada sobre los servidores de render.com.
 :eyes:¿Quieres verlo? te comparto el link del resultado y también un video
 https://vehicles-eda.onrender.com/
 
