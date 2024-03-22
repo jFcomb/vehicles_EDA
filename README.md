@@ -1,4 +1,4 @@
-# Creación de aplicación Web montada en servidor para vsualización de gráficos
+# Visualización EDA en API WEB
 
 En este trabajo se presenta un dataser de una página de ventas de automóviles, el trabajo realizado fue la realización de preprocesamientos de datos rellenando valores nulos y verificando valores duplicados, tipos de datos correctos entre otros. El trabajo se finaliza con la creación de una api web montada sobre los servidores de render.com, para visualizarlo te comparto el link:
 
